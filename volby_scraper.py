@@ -615,4 +615,5 @@ def nastaveni_nazvu_ukonceni(vyber_pozadavku, nazev_okresu) -> list:
         return nazev
 
 ### SPUSTENI KODU ###
-main()
+if __name__ == "__main__":
+    main()
