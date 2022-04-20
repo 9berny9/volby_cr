@@ -8,10 +8,10 @@ Odkaz k prohlédnutí stránky [zde](https://www.volby.cz).
 
 ## **Instalace knihoven**
 Knihovny, které jsou použity v kódu jsou uloženy v souboru `requirements.txt`. 
-Pro instalaci doporučuji použít nové virtuální prostření a s nainstalovaným manažerem spustit následovně:
+Pro instalaci doporučuji použít nové virtuální prostředí:
 ```
-$ pip3 -- version git status            # overim verzi manazeru
-$ pip3 install -r`requirements.txt      # nainstaluji knihovny
+$ pip3 --version git status            # overim verzi manazeru
+$ pip3 install -r requirements.txt      # nainstaluji knihovny
 ```
 ## **Spuštění projektu**
 Spuštění souboru `volby-scraper.py` v příkazovém řádku pomocí povinného argumentu.
